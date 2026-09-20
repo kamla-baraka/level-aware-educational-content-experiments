@@ -9,12 +9,13 @@ This document compares the two controlled proof-of-concept experiments conducted
 
 ## Purpose
 
-The purpose of this cross-experiment analysis is to examine whether the main observations from the level-aware generation process were repeated across two different curriculum sections while using the same experimental approach.
+The purpose of this cross-experiment analysis is to examine whether the observations from the level-aware generation process were repeated across two different curriculum sections when the same experimental approach and predefined comparison criteria were used.
 
 The comparison focuses on:
 
 - experimental consistency;
-- level differentiation;
+- control criteria;
+- differentiation criteria;
 - curriculum grounding;
 - grounding-related revisions;
 - and recurring design observations.
@@ -39,9 +40,9 @@ Both experiments followed the same general controlled procedure.
 | Retrieved Curriculum Knowledge | Fixed before level-aware generation | Fixed before level-aware generation |
 | Pedagogical Profiles | Basic, Intermediate, Advanced | Same Basic, Intermediate, Advanced profiles |
 | Output Structure | 4 fixed components | Same 4 fixed components |
-| Basic Cognitive Demand | Remember and Understand | Remember and Understand |
-| Intermediate Cognitive Demand | Understand and Apply | Understand and Apply |
-| Advanced Cognitive Demand | Apply and Analyze | Apply and Analyze |
+| Intended Basic Cognitive Demand | Remember and Understand | Remember and Understand |
+| Intended Intermediate Cognitive Demand | Understand and Apply | Understand and Apply |
+| Intended Advanced Cognitive Demand | Apply and Analyze | Apply and Analyze |
 | Comparison Type | Researcher-based | Researcher-based |
 | Expert Evaluation | Not conducted | Not conducted |
 | Learner Testing | Not conducted | Not conducted |
@@ -58,119 +59,285 @@ The main variable intentionally changed across learner levels was the **Pedagogi
 
 ---
 
-## 2. Cross-Experiment Comparative Matrix
+## 2. Interpretation of the Comparison Criteria
 
-The same ten comparison criteria were used in both experiments.
+The same ten predefined criteria were used in both experiments.
+
+For the cross-experiment analysis, the criteria were interpreted in two groups.
+
+### Control Criteria
+
+The following criteria were expected to remain consistent across learner levels:
+
+- Curriculum Grounding
+- Learning Objectives Coverage
+- Scientific Core Consistency
+
+Similarity across levels for these criteria is therefore not evidence of weak differentiation. It reflects the controlled experimental design.
+
+### Differentiation Criteria
+
+The following criteria were expected to change according to the Pedagogical Profile:
+
+- Vocabulary Complexity
+- Explanation Depth
+- Scaffolding Level
+- Cognitive Demand
+- Exercise Difficulty
+- Self-Assessment Difficulty
+
+Overall Level Differentiation was assessed from the combined evidence across these differentiation criteria.
+
+---
+
+## 3. Cross-Experiment Comparative Matrix
 
 | Criterion | Experiment 1 – Mitosis | Experiment 2 – Meiosis | Cross-Experiment Observation |
 |---|---|---|---|
-| **Curriculum Grounding** | Final outputs remained within the fixed knowledge after required revisions | Final outputs remained within the fixed knowledge after required revisions | Grounding control was important in both experiments |
-| **Learning Objectives Coverage** | Same 5 fixed objectives addressed across all levels | Same 5 fixed objectives addressed across all levels | Level differentiation did not require changing the learning objectives |
-| **Vocabulary Complexity** | Increased from simple to more integrated curriculum terminology | Increased from simple to more integrated curriculum terminology | Vocabulary use changed according to the Pedagogical Profile |
-| **Explanation Depth** | Direct → relational → integrated / analytical | Direct → relational → integrated / analytical | Explanation depth increased while the curriculum knowledge remained fixed |
-| **Scaffolding Level** | High → Moderate → Low | High → Moderate → Low | Intended scaffolding progression was observed in both experiments |
-| **Cognitive Demand** | Remember/Understand → Understand/Apply → Apply/Analyze | Remember/Understand → Understand/Apply → Apply/Analyze | Intended cognitive progression was retained across both experiments |
-| **Exercise Difficulty** | Recall → application/comparison → analysis/integration | Recall → application/sequencing/comparison → analysis/integration | Exercise difficulty increased through cognitive operations rather than new scientific content |
-| **Self-Assessment Difficulty** | Recall/simple understanding → application/relationships → analysis/synthesis | Recall/simple understanding → application/relationships → analysis/synthesis | Self-assessment demand increased across levels in both experiments |
-| **Scientific Core Consistency** | Same fixed Mitosis core after revisions | Same fixed Meiosis core after revisions | Final level differentiation did not require changing the scientific core |
-| **Overall Level Differentiation** | Meaningful Basic, Intermediate, and Advanced differences observed | Meaningful Basic, Intermediate, and Advanced differences observed | A similar differentiation pattern was observed across the two selected curriculum sections |
+| **Curriculum Grounding** | Consistent across final outputs after required revisions | Consistent across final outputs after required revisions | Control criterion remained stable in both experiments |
+| **Learning Objectives Coverage** | Same 5 fixed objectives addressed across levels | Same 5 fixed objectives addressed across levels | Control criterion remained stable in both experiments |
+| **Vocabulary Complexity** | Limited differentiation | Limited differentiation | Same weakness appeared in both experiments; higher levels mainly used more developed language rather than substantially different terminology |
+| **Explanation Depth** | Moderate differentiation | Limited to moderate differentiation | Some increase in relational/integrated explanation occurred, but Intermediate and Advanced remained relatively similar |
+| **Scaffolding Level** | Moderate / partial differentiation | Moderate / partial differentiation | Intended High–Moderate–Low progression was not fully distinct in either experiment |
+| **Cognitive Demand** | Clear differentiation | Clear differentiation | One of the strongest recurring differentiation dimensions |
+| **Exercise Difficulty** | Clear differentiation | Clear differentiation | Both experiments showed progression in the cognitive operations required by exercises |
+| **Self-Assessment Difficulty** | Clear overall differentiation, with some Intermediate–Advanced overlap | Clear differentiation | Higher-level self-assessment generally required more interpretation, justification, and integration |
+| **Scientific Core Consistency** | Consistent across final outputs | Consistent across final outputs | Control criterion remained stable in both experiments |
+| **Overall Level Differentiation** | Partial and uneven | Partial and uneven | The same general pattern was observed in both experiments |
 
 ---
 
-## 3. Basic-Level Comparison
+## 4. Recurring Pattern in the Control Criteria
 
-In both experiments, the Basic package was accepted without a grounding revision.
+Across both experiments, the three control criteria remained largely consistent after grounding-related revisions.
 
-The Basic outputs emphasized:
+### Curriculum Grounding
 
-- simple and familiar vocabulary;
-- short and direct explanations;
-- high scaffolding;
-- limited concept load;
+The final Basic, Intermediate, and Advanced packages were kept within the fixed curriculum knowledge boundary.
+
+### Learning Objectives Coverage
+
+The same five Learning Objectives were addressed across the three levels within each experiment.
+
+### Scientific Core Consistency
+
+The underlying scientific content remained fixed within each experiment.
+
+This consistency is important because the purpose of the experiment was not to assign different scientific knowledge to different learner levels.
+
+Instead, the intended differentiation concerned **how learners engaged with the same scientific knowledge**.
+
+---
+
+## 5. Vocabulary Complexity Across the Two Experiments
+
+Vocabulary Complexity showed **limited differentiation in both experiments**.
+
+The Basic packages used relatively direct explanatory language, but they already included much of the essential scientific terminology required by the curriculum.
+
+The Intermediate and Advanced packages generally retained the same core scientific terminology.
+
+Differences were more visible in:
+
+- sentence complexity;
+- relational use of terms;
+- integration of terminology within explanations; and
+- more academically developed wording.
+
+Therefore, the experiments did not demonstrate a strongly separated three-level progression in scientific vocabulary.
+
+This recurring result suggests that the current Pedagogical Profiles require more precise operational rules if Vocabulary Complexity is intended to function as a measurable level-differentiation dimension.
+
+---
+
+## 6. Explanation Depth Across the Two Experiments
+
+Both experiments showed some progression in Explanation Depth.
+
+The Basic packages generally presented information more directly.
+
+The Intermediate packages introduced more relationships among the fixed concepts.
+
+The Advanced packages attempted to integrate the same concepts more deeply.
+
+However, the distinction between Intermediate and Advanced was not consistently strong.
+
+In both experiments, some Advanced explanations were structurally similar to the Intermediate explanations and differed partly through longer or more academically developed wording.
+
+Therefore:
+
+- Experiment 1 showed **moderate differentiation** in Explanation Depth.
+- Experiment 2 showed **limited to moderate differentiation**.
+
+The repeated Intermediate–Advanced overlap suggests that Explanation Depth requires more explicit operational differentiation in future prompt refinement.
+
+---
+
+## 7. Scaffolding Across the Two Experiments
+
+The intended profiles specified:
+
+- Basic → High scaffolding
+- Intermediate → Moderate scaffolding
+- Advanced → Low scaffolding
+
+The generated outputs only partially reflected this progression.
+
+Basic packages clearly provided substantial instructional support.
+
+Intermediate packages required greater learner processing but retained considerable structure.
+
+Advanced packages increased the expectation for interpretation and independent reasoning, particularly in exercises and self-assessment.
+
+However, the explanations remained structured across all levels, and explicit prompts or answer support remained present.
+
+Therefore, Scaffolding Level showed **moderate / partial differentiation in both experiments**.
+
+The difference was more visible in the learner tasks than in the structure of the explanatory content.
+
+---
+
+## 8. Cognitive Demand Across the Two Experiments
+
+Cognitive Demand showed one of the clearest recurring differentiation patterns.
+
+### Basic
+
+The Basic packages primarily required:
+
 - recall;
-- simple understanding;
-- and direct assessment tasks.
+- recognition;
+- direct identification; and
+- simple understanding.
 
-The Basic packages remained focused on the essential curriculum knowledge and did not require the addition of external scientific content to support the intended level.
+These tasks were broadly consistent with the intended **Remember and Understand** emphasis.
 
-### Cross-Experiment Observation
+### Intermediate
 
-Across the two experiments, the Basic profile produced educational packages characterized by high instructional support and lower cognitive demand.
+The Intermediate packages introduced:
 
-This is a descriptive observation from the two controlled experiments and should not be interpreted as evidence that Basic generation will always remain within the curriculum boundary in other contexts.
+- sequencing;
+- comparison;
+- explanation of relationships; and
+- simple application.
 
----
+These tasks were broadly consistent with **Understand and Apply**.
 
-## 4. Intermediate-Level Comparison
+### Advanced
 
-Both experiments required revision of the initial Intermediate package.
+The Advanced packages increased requirements for:
 
-However, the specific grounding issues were not identical.
+- interpretation;
+- analysis;
+- comparison;
+- justification;
+- use of multiple pieces of evidence; and
+- integration of fixed concepts.
 
-### Experiment 1 – Mitosis
+These tasks were broadly consistent with the intended **Apply and Analyze** emphasis.
 
-The initial Intermediate generation included issues such as ambiguity in the treatment of DNA, chromosomes, and chromatids, together with wording that required refinement to remain aligned with the fixed curriculum knowledge.
+Therefore, Cognitive Demand showed **clear differentiation in both experiments**.
 
-The revised version retained Intermediate-level differentiation through relationships, sequencing, comparison, and simple application while improving grounding.
-
-### Experiment 2 – Meiosis
-
-The initial Intermediate generation introduced:
-
-- hypothetical chromosome numbers such as 14, 48, and 64;
-- an additional causal explanation concerning chromosome-number stability;
-- and terminology such as “Developmental Sequencing” that was not well aligned with the fixed quantitative progression.
-
-The revised version returned to the fixed 46 → 23 curriculum example and preserved Intermediate-level application, sequencing, comparison, and relationship-based tasks.
-
-### Cross-Experiment Observation
-
-In both experiments, the final Intermediate package retained **Understand and Apply** cognitive demand after grounding-related revisions.
-
-The fact that both initial Intermediate generations required revision is a recurring observation across these two experiments. However, the experiments are insufficient to establish a causal relationship between Intermediate-level cognitive demand and grounding difficulty.
+Importantly, the higher cognitive demand was produced primarily by changing the operations required from the learner rather than by intentionally adding new scientific knowledge.
 
 ---
 
-## 5. Advanced-Level Comparison
+## 9. Exercise Difficulty Across the Two Experiments
 
-Both experiments also required revision of the initial Advanced package.
+Exercise Difficulty also showed clear recurring differentiation.
 
-### Experiment 1 – Mitosis
+### Basic
 
-The initial Advanced output introduced reasoning and explanatory content that extended beyond the fixed curriculum knowledge.
+Exercises mainly relied on direct response formats such as:
 
-The revision constrained Advanced-level difficulty to deeper analysis, relationships, interpretation, justification, and integration of the fixed Mitosis knowledge.
+- recognition;
+- ordering;
+- matching;
+- fill-in-the-blank; and
+- True/False.
 
-### Experiment 2 – Meiosis
+### Intermediate
 
-The initial Advanced output introduced:
+Exercises increased learner processing through:
 
-- a combined chromosome calculation of **4 × 23 = 92**;
-- a hypothetical failure of chromosome reduction;
-- an additional causal statement concerning chromosome numbers “doubling uncontrollably”;
-- and additional functional framing beyond the fixed knowledge.
+- comparison;
+- sequencing;
+- explanation of relationships; and
+- simple application of the fixed curriculum knowledge.
 
-The revised version removed these extensions while retaining Advanced-level reasoning through:
+### Advanced
 
-- analysis of the fixed numerical progression;
-- the 1 : 4 cell-number relationship;
-- the 23 : 46 = 1 : 2 chromosome-number relationship per cell;
-- analytical comparison;
-- relationship mapping;
-- evidence-based identification;
-- and integrated synthesis.
+Exercises placed greater emphasis on:
 
-### Cross-Experiment Observation
+- analysis;
+- interpretation;
+- justification;
+- multi-factor comparison; and
+- integration of relationships.
 
-In both experiments, Advanced-level differentiation could be retained after unsupported or out-of-bound content was removed.
+Therefore, Exercise Difficulty showed **clear differentiation in both experiments**.
 
-The final Advanced packages therefore became more cognitively demanding primarily through **how the fixed knowledge was processed**, rather than through the addition of new scientific knowledge.
+This was one of the strongest dimensions of level differentiation observed across the two controlled experiments.
 
 ---
 
-## 6. Grounding and Cognitive Demand Across the Two Experiments
+## 10. Self-Assessment Difficulty Across the Two Experiments
 
-The following revision pattern was observed:
+Self-Assessment Difficulty also showed a recurring progression.
+
+The Basic packages mainly used direct recall and simple understanding questions.
+
+The Intermediate packages required greater application and explanation of relationships.
+
+The Advanced packages generally required greater interpretation, justification, evidence use, and integration of multiple fixed concepts.
+
+The progression was not equally strong for every individual question, particularly between Intermediate and Advanced in the Mitosis experiment.
+
+Nevertheless, across the complete final packages, Self-Assessment Difficulty showed **clear overall differentiation**, with stronger differentiation in the Meiosis experiment.
+
+---
+
+## 11. Overall Level Differentiation Across the Two Experiments
+
+The cross-experiment review does not support a conclusion of uniformly strong differentiation across all predefined criteria.
+
+Instead, both experiments showed a similar pattern of **partial and uneven differentiation**.
+
+### Stronger Differentiation Dimensions
+
+The clearest recurring differences occurred in:
+
+- Cognitive Demand
+- Exercise Difficulty
+- Self-Assessment Difficulty
+
+### Weaker Differentiation Dimensions
+
+The weaker recurring differences occurred in:
+
+- Vocabulary Complexity
+- Explanation Depth
+- Scaffolding Level
+
+The Basic package was generally distinguishable from the higher-level packages.
+
+However, the distinction between Intermediate and Advanced was less consistent, particularly in vocabulary, explanatory structure, and instructional support.
+
+Some differences in the Advanced packages reflected:
+
+- longer formulations;
+- more academic wording; and
+- stronger analytical command verbs.
+
+These characteristics alone are not sufficient evidence of a distinct pedagogical level.
+
+Therefore, the two experiments provide evidence of **partial level differentiation**, but they also identify specific aspects of the Pedagogical Profiles that require refinement before stronger claims about three clearly separated learner levels can be made.
+
+---
+
+## 12. Grounding-Related Revision Pattern
+
+The following revision pattern was observed in both experiments:
 
 | Learner Level | Experiment 1 – Mitosis | Experiment 2 – Meiosis |
 |---|---|---|
@@ -180,110 +347,75 @@ The following revision pattern was observed:
 
 This recurring pattern is noteworthy because it appeared in both controlled experiments.
 
-However, the available evidence does not establish that increasing cognitive demand **causes** grounding problems.
+However, the available evidence does not establish that increasing cognitive demand causes grounding problems.
 
-A more cautious interpretation is:
+A cautious interpretation is:
 
 > Across the two controlled experiments, grounding-related issues were observed in the initial Intermediate and Advanced generations, while the Basic generations were accepted without grounding revision. This recurring pattern suggests that maintaining a strict curriculum boundary may become more challenging when higher cognitive-demand activities are requested; however, the experiments are insufficient to establish a causal relationship.
 
 ---
 
-## 7. Level Differentiation Across the Two Experiments
+## 13. WHAT vs HOW Design Distinction
 
-Both experiments produced the same general progression:
-
-### Basic
-
-**High Scaffolding → Remember / Understand**
-
-The learner receives direct explanations, substantial support, and relatively simple recall and understanding tasks.
-
-### Intermediate
-
-**Moderate Scaffolding → Understand / Apply**
-
-The learner is expected to connect concepts, sequence information, compare relationships, and apply the fixed knowledge.
-
-### Advanced
-
-**Low Scaffolding → Apply / Analyze**
-
-The learner is expected to interpret, analyze, compare, justify, and synthesize relationships within the fixed curriculum knowledge.
-
-### Cross-Experiment Interpretation
-
-Across both selected curriculum sections, meaningful differentiation was observed without intentionally assigning different scientific knowledge to the three learner levels.
-
-The differentiation was primarily produced through changes in:
-
-- vocabulary complexity;
-- explanation depth;
-- scaffolding;
-- learner independence;
-- cognitive operations;
-- exercise difficulty;
-- and self-assessment difficulty.
-
----
-
-## 8. WHAT vs HOW Design Distinction
-
-The two experiments support an important design distinction used in the proposed framework.
+The two experiments continue to support an important conceptual distinction in the proposed framework.
 
 ### Curriculum Grounding – WHAT
 
-The curriculum knowledge boundary determines **what scientific knowledge is available for generation**.
+Curriculum grounding defines **what scientific knowledge may be used**.
 
-The curriculum source, selected lesson scope, Learning Objectives, and Fixed Retrieved Curriculum Knowledge were controlled within each experiment.
+Within each experiment, the curriculum source, selected lesson scope, Learning Objectives, and Fixed Retrieved Curriculum Knowledge were controlled.
 
 ### Pedagogical Profile – HOW
 
-The Pedagogical Profile determines **how the same knowledge is presented and processed**.
+The Pedagogical Profile is intended to control **how the same knowledge is presented, practiced, and assessed**.
 
-It controls:
+The experiments indicate that this control was more successful for some dimensions than for others.
 
-- vocabulary;
-- explanation depth;
-- scaffolding;
-- concept integration;
-- learner independence;
+It produced clearer changes in:
+
 - cognitive demand;
-- exercise design;
-- and self-assessment design.
+- exercise design; and
+- self-assessment design.
 
-### Cross-Experiment Observation
+It produced weaker changes in:
 
-The final outputs from both experiments suggest that meaningful Basic, Intermediate, and Advanced differentiation can be achieved by varying the **HOW** while maintaining control over the **WHAT**.
+- vocabulary complexity;
+- explanation depth; and
+- scaffolding.
 
----
-
-## 9. Role of the Revision Process
-
-The revision process was not used to make the higher-level outputs easier.
-
-Instead, it was used to remove content that exceeded the fixed curriculum boundary while preserving the intended Pedagogical Profile.
-
-This distinction is important.
-
-For example, the final Advanced outputs continued to require greater analysis and integration than the Basic and Intermediate outputs even after unsupported scientific extensions were removed.
-
-The revision process therefore provided preliminary design insight into how grounding constraints and pedagogical differentiation may need to operate together.
+Therefore, the WHAT/HOW distinction remains useful, but the operational definition of the **HOW** requires further refinement.
 
 ---
 
-## 10. Cross-Experiment Preliminary Finding
+## 14. Role of the Revision Process
 
-Across two curriculum sections, the proof-of-concept experiments provided preliminary evidence that the same curriculum-grounded knowledge could be transformed into meaningfully differentiated Basic, Intermediate, and Advanced educational packages by varying the Pedagogical Profile while maintaining fixed curriculum knowledge, Learning Objectives, and Output Structure within each experiment.
+The revision process was used primarily to remove generated content that exceeded the fixed curriculum boundary.
 
-The experiments also revealed a recurring grounding challenge: as cognitive demand increased, generated content showed a greater tendency to extend beyond the fixed curriculum knowledge.
+It was not intended to reduce the learner level.
 
-Prompt refinement and stronger grounding constraints reduced this tendency while preserving the intended level differentiation.
+In both experiments, revised Intermediate and Advanced outputs retained higher-demand learner activities after unsupported scientific extensions were removed.
 
-This finding should be interpreted as a preliminary observation from two controlled experiments rather than as a general or causal conclusion.
+However, the final comparison also showed that preserving grounding alone does not guarantee strong pedagogical differentiation.
+
+Grounding control and level-differentiation control therefore represent related but distinct generation requirements.
 
 ---
 
-## 11. Limitations of the Cross-Experiment Comparison
+## 15. Cross-Experiment Preliminary Finding
+
+Across the two controlled curriculum sections, changing the Pedagogical Profile produced observable differences in some characteristics of the generated educational packages while the main content-related variables remained fixed.
+
+The strongest and most consistent differences occurred in cognitive demand, exercise difficulty, and self-assessment difficulty.
+
+In contrast, vocabulary complexity, explanation depth, and scaffolding showed weaker differentiation, particularly between Intermediate and Advanced.
+
+The repeated pattern across Mitosis and Meiosis suggests that the current Pedagogical Profiles influence the generated outputs but do not yet produce consistently distinct Basic, Intermediate, and Advanced packages across all predefined differentiation criteria.
+
+The findings therefore identify a need for further refinement of the Pedagogical Profiles and generation prompts before stronger claims of three-level pedagogical differentiation are made.
+
+---
+
+## 16. Limitations of the Cross-Experiment Comparison
 
 The comparison is limited by several factors:
 
@@ -301,10 +433,16 @@ The comparison is limited by several factors:
 
 ## Conclusion
 
-The two controlled experiments showed a consistent preliminary pattern of level-aware educational content generation across the selected Mitosis and Meiosis curriculum sections.
+The two controlled experiments showed a recurring pattern of **partial and uneven level differentiation** across the selected Mitosis and Meiosis curriculum sections.
 
-In the final accepted outputs, Basic, Intermediate, and Advanced packages differed in pedagogical and cognitive characteristics while retaining their respective fixed curriculum knowledge.
+The control criteria—Curriculum Grounding, Learning Objectives Coverage, and Scientific Core Consistency—remained stable across the final outputs, as intended.
 
-The experiments also highlighted the need to maintain explicit grounding controls when requesting more cognitively demanding generation.
+Among the differentiation criteria, Cognitive Demand, Exercise Difficulty, and Self-Assessment Difficulty showed the clearest recurring differences.
 
-These findings represent preliminary feasibility observations only. They do not validate the complete framework, establish learner effectiveness, prove a causal relationship between cognitive demand and grounding difficulty, or establish generalizability beyond the current proof-of-concept setting.
+Vocabulary Complexity, Explanation Depth, and Scaffolding showed weaker differentiation, with notable overlap between Intermediate and Advanced.
+
+The experiments also highlighted the importance of maintaining explicit grounding controls when requesting higher-demand educational activities.
+
+Overall, the findings provide preliminary design evidence for refining the level-aware generation component rather than validation of a completed three-level differentiation mechanism.
+
+They do not establish learner effectiveness, formal expert validation, causality between cognitive demand and grounding difficulty, or generalizability beyond the current controlled proof-of-concept setting.
