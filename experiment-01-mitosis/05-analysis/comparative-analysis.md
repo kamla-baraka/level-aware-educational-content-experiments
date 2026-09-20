@@ -6,7 +6,9 @@ Experiment 1 – Mitosis
 
 ## Purpose
 
-This document compares the final accepted Basic, Intermediate, and Advanced Mitosis packages to examine whether meaningful pedagogical differentiation was achieved while maintaining the same curriculum source, learning objectives, fixed retrieved knowledge, and output structure.
+This document compares the final accepted Basic, Intermediate, and Advanced Mitosis packages using the ten predefined comparison criteria.
+
+The purpose of this analysis is to determine which characteristics remained consistent across the three levels and which characteristics showed observable pedagogical differentiation.
 
 The comparison represents a researcher-based analysis of the generated outputs. It is not a formal expert evaluation.
 
@@ -25,112 +27,218 @@ The final outputs were compared using the following ten criteria:
 9. Scientific Core Consistency
 10. Overall Level Differentiation
 
+The criteria were interpreted in two groups:
+
+### Control Criteria
+
+These criteria were expected to remain consistent across the three learner levels:
+
+- Curriculum Grounding
+- Learning Objectives Coverage
+- Scientific Core Consistency
+
+### Differentiation Criteria
+
+These criteria were expected to vary according to the Pedagogical Profile:
+
+- Vocabulary Complexity
+- Explanation Depth
+- Scaffolding Level
+- Cognitive Demand
+- Exercise Difficulty
+- Self-Assessment Difficulty
+
+Overall Level Differentiation was then assessed based on the combined pattern observed across these criteria.
+
 ## Comparative Matrix
 
-| Criterion | Basic | Intermediate | Advanced |
-|---|---|---|---|
-| Curriculum Grounding | Remained sufficiently aligned with the fixed curriculum knowledge and was accepted without revision. | Final output showed improved grounding after revision of the initial package. | Final output showed improved grounding after stricter revision of the initial package. |
-| Learning Objectives Coverage | Addressed the five fixed learning objectives. | Addressed the same five fixed learning objectives. | Addressed the same five fixed learning objectives. |
-| Vocabulary Complexity | Simple and familiar vocabulary with essential scientific terminology. | Greater use of curriculum terminology and relationships between terms. | More integrated use of the available curriculum terminology. |
-| Explanation Depth | Direct explanations focused on essential information. | Moderate explanation depth with relationships among stages and structures. | Greater integration and interpretation of relationships within the fixed knowledge. |
-| Scaffolding Level | High scaffolding and step-by-step presentation. | Moderate scaffolding. | Lower scaffolding and greater expectation of learner independence. |
-| Cognitive Demand | Mainly Remember and Understand. | Mainly Understand and Apply. | Mainly Apply and Analyze. |
-| Exercise Difficulty | Recall, recognition, sequencing, and direct matching. | Comparison, sequencing, relationships, and simple application. | Interpretation, integration, justification, comparison, and analytical application within the fixed knowledge. |
-| Self-Assessment Difficulty | Direct recall and simple understanding. | Application and explanation of relationships. | Multi-concept interpretation, justification, and analytical reasoning within the curriculum boundary. |
-| Scientific Core Consistency | Maintained the central Mitosis concepts and learning objectives. | Final revised output maintained the same scientific core. | Final revised output maintained the same scientific core. |
-| Overall Level Differentiation | High instructional support and low learner independence. | Moderate instructional support and moderate learner independence. | Lower instructional support and higher learner independence, with greater reasoning demand. |
+| Criterion | Basic | Intermediate | Advanced | Observed Result |
+|---|---|---|---|---|
+| Curriculum Grounding | Remained aligned with the fixed curriculum knowledge and was accepted without revision. | Final output showed improved grounding after revision of the initial package. | Final output showed improved grounding after stricter revision of the initial package. | Consistent across final outputs; differentiation was not expected for this criterion. |
+| Learning Objectives Coverage | Addressed the five fixed learning objectives. | Addressed the same five fixed learning objectives. | Addressed the same five fixed learning objectives. | Consistent across levels; differentiation was not expected. |
+| Vocabulary Complexity | Used simple explanatory language but still included a relatively substantial amount of curriculum scientific terminology. | Used largely the same core scientific terminology, with somewhat more connected and developed language. | Used the same core terminology in more academically developed and integrated language. | **Limited differentiation.** Differences were more evident in how terms were used than in the scientific terminology itself. |
+| Explanation Depth | Mainly direct description of essential concepts and stages. | Added more explicit relationships between stages, structures, and outcomes. | Provided more integrated interpretation of relationships, although some explanations remained similar to the Intermediate package. | **Moderate differentiation.** Some increase in depth was observed, but part of the difference reflected greater linguistic elaboration. |
+| Scaffolding Level | Highly structured and predominantly step-by-step. | Remained substantially structured, while requiring more learner processing in some activities. | Required greater independent interpretation and reasoning, particularly in activities and assessment. | **Moderate / partial differentiation.** Differences were clearer in learner tasks than in the structure of the explanations. |
+| Cognitive Demand | Mainly recall and direct understanding. | Required explanation, comparison, sequencing, and simple application. | Required greater interpretation, justification, integration, and analysis within the fixed curriculum knowledge. | **Clear differentiation**, particularly in the types of learner tasks. |
+| Exercise Difficulty | Mainly multiple-choice, ordering, matching, and direct identification. | Included explanation of relationships, comparison, sequencing, and simple application. | Required more analytical interpretation, comparison, justification, and integration of concepts. | **Clear differentiation.** The nature of the required learner response changed across levels. |
+| Self-Assessment Difficulty | Focused mainly on recall and simple understanding. | Required application and explanation of relationships. | Required greater interpretation, justification, and integration of multiple concepts. | **Clear differentiation overall**, although the distinction was stronger between Basic and the higher levels than between Intermediate and Advanced. |
+| Scientific Core Consistency | Maintained the central Mitosis concepts and learning objectives. | Final revised output maintained the same scientific core. | Final revised output maintained the same scientific core. | Consistent across final outputs; differentiation was not expected. |
+| Overall Level Differentiation | High instructional support with predominantly direct learning tasks. | Greater processing and application were required, but some characteristics remained close to the Basic or Advanced packages. | Greater reasoning demand was observed, especially in exercises and self-assessment, although some differences from Intermediate were primarily linguistic or elaborative. | **Partial and uneven differentiation across the predefined criteria.** |
 
-## Basic Level Characteristics
+## Criterion-Based Interpretation
 
-The Basic package emphasized accessibility and instructional support.
+### 1. Curriculum Grounding
 
-Its main characteristics included:
+Curriculum Grounding functioned as a control criterion rather than a level-differentiation criterion.
 
-- Simple and familiar language
-- Short and direct explanations
-- High scaffolding
-- Limited concept load
-- Recall and simple understanding activities
-- Direct self-assessment questions
+The final Basic, Intermediate, and Advanced packages were all intended to remain within the same fixed curriculum knowledge boundary.
 
-The package primarily reflected the **Remember** and **Understand** cognitive levels.
+The Basic package was accepted without revision. The Intermediate and Advanced packages required grounding-related revisions before their final versions were accepted.
 
-## Intermediate Level Characteristics
+Therefore, consistency rather than difference across levels was the expected result for this criterion.
 
-The Intermediate package increased the expected level of learner engagement without changing the lesson objectives or curriculum knowledge.
+### 2. Learning Objectives Coverage
 
-Its main characteristics included:
+All three final packages addressed the same five fixed learning objectives.
 
-- Greater use of curriculum terminology
-- More explicit relationships between concepts
-- Moderate scaffolding
-- Sequencing and comparison activities
-- Simple application of curriculum knowledge
-- Greater learner independence than the Basic package
+No additional learning objectives were introduced for the higher levels.
 
-The package primarily reflected the **Understand** and **Apply** cognitive levels.
+This criterion therefore remained consistent across Basic, Intermediate, and Advanced, as intended by the experimental design.
 
-## Advanced Level Characteristics
+### 3. Vocabulary Complexity
 
-The Advanced package increased reasoning depth while retaining the same instructional scope.
+The expected differentiation in vocabulary complexity was only partially observed.
 
-Its main characteristics included:
+The Basic package used simpler explanatory language, but it still contained a relatively high density of scientific curriculum terminology, including terms related to chromosomes, sister chromatids, centromeres, spindle fibers, and cytokinesis.
 
-- Integrated use of curriculum concepts
-- Lower scaffolding
-- Greater learner independence
-- Interpretation of relationships
-- Comparison and justification
-- Analytical application of the fixed curriculum knowledge
+The Intermediate and Advanced packages used largely the same scientific terminology.
 
-The package primarily reflected the **Apply** and **Analyze** cognitive levels.
+Their main difference was in how the terminology was incorporated into more connected or academically developed explanations.
+
+Therefore, vocabulary complexity showed **limited differentiation** across the three levels.
+
+### 4. Explanation Depth
+
+The Basic package primarily described what occurs during mitosis in a direct and sequential manner.
+
+The Intermediate package more frequently connected stages, structures, and outcomes.
+
+The Advanced package further integrated relationships and interpretation within the same curriculum knowledge.
+
+However, the distinction between Intermediate and Advanced was not consistently strong. Some differences reflected increased linguistic elaboration rather than substantially different conceptual depth.
+
+Explanation Depth was therefore assessed as showing **moderate differentiation**.
+
+### 5. Scaffolding Level
+
+The Basic package showed clear step-by-step organization and high instructional structure.
+
+However, the Intermediate package retained a similar overall explanation structure.
+
+The reduction in scaffolding became more visible in the learner activities, where Intermediate and Advanced learners were expected to make more connections and work more independently.
+
+Therefore, the intended High–Moderate–Low scaffolding progression was only **partially achieved** in the generated outputs.
+
+### 6. Cognitive Demand
+
+Cognitive Demand showed one of the clearest differences across the three packages.
+
+The Basic package mainly required recall and direct understanding.
+
+The Intermediate package introduced explanation, comparison, sequencing, and simple application.
+
+The Advanced package placed greater emphasis on interpretation, justification, integration, and analytical reasoning within the fixed curriculum boundary.
+
+Therefore, Cognitive Demand showed **clear differentiation** across the levels.
+
+### 7. Exercise Difficulty
+
+Exercise design also showed relatively clear differentiation.
+
+The Basic exercises relied mainly on recognition, ordering, matching, and direct responses.
+
+The Intermediate exercises required comparison, explanation of relationships, and simple application.
+
+The Advanced exercises required more independent interpretation, justification, comparison, and integration.
+
+Therefore, Exercise Difficulty showed **clear differentiation**.
+
+### 8. Self-Assessment Difficulty
+
+The Basic self-assessment questions mainly tested recall and direct understanding.
+
+The Intermediate questions required learners to apply information and explain relationships.
+
+The Advanced questions required greater interpretation, justification, and integration of concepts.
+
+The distinction was particularly visible between the Basic package and the two higher-level packages.
+
+The difference between Intermediate and Advanced was present but less pronounced.
+
+Therefore, Self-Assessment Difficulty showed **clear overall differentiation, with some overlap between Intermediate and Advanced**.
+
+### 9. Scientific Core Consistency
+
+The same scientific core was intentionally maintained across the three final packages.
+
+All levels addressed the same Mitosis process, stages, structures, learning objectives, and final outcome.
+
+Scientific Core Consistency therefore functioned as a control criterion and remained consistent across the final outputs.
+
+## Overall Level Differentiation
+
+The criterion-based review indicates that differentiation across the three generated packages was **partial and uneven rather than uniformly strong**.
+
+The clearest differences were observed in:
+
+- Cognitive Demand
+- Exercise Difficulty
+- Self-Assessment Difficulty
+
+Moderate or limited differences were observed in:
+
+- Vocabulary Complexity
+- Explanation Depth
+- Scaffolding Level
+
+In particular, some differences between the Intermediate and Advanced packages appeared to result from longer or more academically developed wording rather than from a clearly distinct pedagogical treatment.
+
+This finding is important because text length or linguistic elaboration alone should not be treated as sufficient evidence of level differentiation.
 
 ## Scientific Core Across Levels
 
-The final accepted packages were designed around the same scientific core.
-
-Across the three levels, the learner was expected to work with the same:
+Across the three levels, the learner continued to work with the same:
 
 - Mitosis lesson
 - Five learning objectives
-- Curriculum-grounded knowledge
+- Fixed curriculum-grounded knowledge
 - Main stages of mitosis
 - Relevant cellular structures
 - Final result of mitosis
 - Four-component output structure
 
-Therefore, level differentiation was intended to change **how the knowledge was presented, practiced, and assessed**, rather than changing **what scientific content the learner was expected to learn**.
+Therefore, the intended purpose of level differentiation was to change **how the same knowledge was presented, practiced, and assessed**, rather than changing **what scientific content the learner was expected to learn**.
 
 ## Preliminary Finding
 
-The final outputs showed observable differences in vocabulary complexity, explanation depth, scaffolding, cognitive demand, exercise difficulty, self-assessment difficulty, and learner independence.
+The experiment provides preliminary evidence that changing the Pedagogical Profile can influence some characteristics of generated educational content, particularly cognitive demand and the design of exercises and self-assessment questions.
 
-Within this controlled proof-of-concept experiment, the same curriculum-grounded knowledge could be presented in pedagogically differentiated forms by changing the learner-level pedagogical profile while keeping the curriculum source, learning objectives, retrieved knowledge, and output structure fixed.
+However, the predefined profiles did not produce equally clear differentiation across all criteria.
+
+Vocabulary complexity showed limited differentiation, while explanation depth and scaffolding showed moderate or partial differentiation. Some overlap remained between the Intermediate and Advanced packages.
+
+Therefore, the results should not be interpreted as demonstrating complete or consistently strong differentiation among the three learner levels.
+
+Instead, the findings identify specific aspects of the Pedagogical Profiles and generation prompts that may require further refinement.
 
 ## Grounding Observation
 
-The generation process also revealed an important design consideration.
-
 The Basic package was accepted without grounding revision, whereas the initial Intermediate and Advanced packages required revisions to improve adherence to the fixed curriculum knowledge boundary.
 
-This recurring pattern within the experiment suggests that maintaining strict curriculum grounding may become more challenging when higher cognitive-demand activities are requested.
+Within this experiment, grounding-related issues therefore appeared in the initial higher-demand generations.
 
-However, this observation does not establish that increased cognitive demand causes grounding errors.
+This observation suggests that maintaining a strict curriculum boundary may become more challenging when more complex learner activities are requested.
 
-## Design Implication
+However, this experiment does not establish a causal relationship between cognitive demand and grounding errors.
 
-The experiment indicates that the Pedagogical Profile alone should not be treated as sufficient for controlling level-aware generation.
+## Design Implications
 
-Grounding constraints should remain active during generation so that increased reasoning depth does not unintentionally introduce scientific knowledge outside the approved curriculum boundary.
+Two design implications emerged from the experiment.
 
-This supports the conceptual distinction used in the proposed framework:
+First, curriculum grounding should remain active across all learner levels so that changes in pedagogical difficulty do not introduce knowledge outside the approved curriculum boundary.
+
+Second, the Pedagogical Profiles require further refinement to produce more explicit and measurable differences in vocabulary complexity, explanation depth, and scaffolding, rather than relying mainly on increased text length or linguistic elaboration.
+
+The experiment therefore continues to support the conceptual distinction:
 
 - **Curriculum grounding controls what knowledge may be used.**
-- **The pedagogical profile controls how that knowledge is presented and assessed.**
+- **The pedagogical profile controls how that knowledge is presented, practiced, and assessed.**
+
+However, the current experiment indicates that the rules defining **how** the knowledge changes across levels need to be specified more precisely.
 
 ## Scope of the Finding
 
-The results provide preliminary feasibility evidence for the curriculum-grounded, level-aware content generation component of the proposed framework.
+These results represent researcher-based observations from one controlled proof-of-concept experiment.
 
 They do not constitute:
 
@@ -139,3 +247,5 @@ They do not constitute:
 - Formal expert evaluation
 - Implementation or validation of a complete technical RAG pipeline
 - Evidence of generalizability across other lessons, subjects, curricula, or LLM environments
+
+The findings will be compared with the second controlled experiment before decisions are made about refinement of the Pedagogical Profiles.
