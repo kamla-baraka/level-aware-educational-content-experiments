@@ -4,7 +4,7 @@
 
 This repository documents controlled proof-of-concept experiments conducted as part of a Master's research project on curriculum-grounded, level-aware educational content generation using Large Language Models (LLMs).
 
-The experiments investigate whether the same curriculum-grounded knowledge can be transformed into educational packages for three learner levels:
+The experiments investigate whether the same curriculum-grounded knowledge can be transformed into educational packages for three intended learner levels:
 
 - Basic
 - Intermediate
@@ -13,6 +13,8 @@ The experiments investigate whether the same curriculum-grounded knowledge can b
 while maintaining control over the curriculum source, learning objectives, retrieved knowledge, and output structure.
 
 The experiments use selected content from the Palestinian Grade 8 Science curriculum and Google NotebookLM as the generation environment.
+
+---
 
 ## Research Context
 
@@ -29,6 +31,8 @@ The experiments support the development of a proposed knowledge-grounded LLM fra
 The experiments currently documented in this repository focus primarily on the **curriculum-grounded, level-aware content generation component** of the proposed framework.
 
 They should not be interpreted as implementation or validation of the complete framework.
+
+---
 
 ## Current Experiments
 
@@ -52,6 +56,8 @@ The same Basic, Intermediate, and Advanced Pedagogical Profiles used in Experime
 
 This replication allows comparison of level differentiation and grounding behavior across two selected curriculum sections.
 
+---
+
 ## Experimental Principle
 
 The experiments are based on a distinction between:
@@ -60,15 +66,19 @@ The experiments are based on a distinction between:
 
 and:
 
-> **The Pedagogical Profile controls HOW that knowledge is explained, structured, practiced, and assessed.**
+> **The Pedagogical Profile is intended to control HOW that knowledge is explained, structured, practiced, and assessed.**
 
-The intended level progression is:
+The intended level progression defined before generation was:
 
 **Basic → High Scaffolding → Remember / Understand**
 
 **Intermediate → Moderate Scaffolding → Understand / Apply**
 
 **Advanced → Low Scaffolding → Apply / Analyze**
+
+These profiles represent the intended experimental conditions. Whether the generated outputs actually reflected these distinctions was evaluated separately using the predefined comparison criteria.
+
+---
 
 ## Repository Structure
 
@@ -121,6 +131,8 @@ level-aware-educational-content-experiments/
     └── preliminary-findings.md
 ```
 
+---
+
 ## Experimental Variables
 
 The experiments were designed as controlled proof-of-concept trials.
@@ -141,7 +153,7 @@ The following elements were kept constant across the Basic, Intermediate, and Ad
 
 The main variable intentionally changed across the three generation conditions was the **Pedagogical Profile**.
 
-The Pedagogical Profile controlled:
+The Pedagogical Profile was intended to control:
 
 - Vocabulary complexity
 - Explanation depth
@@ -153,6 +165,8 @@ The Pedagogical Profile controlled:
 - Exercise design
 - Self-assessment difficulty
 
+The final outputs were then compared to determine the extent to which these intended differences were actually reflected in the generated packages.
+
 ### Fixed Output Structure
 
 Each generated educational package contained exactly four components:
@@ -162,11 +176,49 @@ Each generated educational package contained exactly four components:
 3. Exercises
 4. Self-Assessment Questions
 
+---
+
+## Comparison Criteria
+
+The final outputs were evaluated using ten predefined criteria:
+
+1. Curriculum Grounding
+2. Learning Objectives Coverage
+3. Vocabulary Complexity
+4. Explanation Depth
+5. Scaffolding Level
+6. Cognitive Demand
+7. Exercise Difficulty
+8. Self-Assessment Difficulty
+9. Scientific Core Consistency
+10. Overall Level Differentiation
+
+For interpretation, three criteria functioned primarily as **control criteria**:
+
+- Curriculum Grounding
+- Learning Objectives Coverage
+- Scientific Core Consistency
+
+These were expected to remain stable across learner levels.
+
+The main **differentiation criteria** were:
+
+- Vocabulary Complexity
+- Explanation Depth
+- Scaffolding Level
+- Cognitive Demand
+- Exercise Difficulty
+- Self-Assessment Difficulty
+
+This distinction prevents expected consistency in the scientific content from being incorrectly interpreted as a failure of level differentiation.
+
+---
+
 ## Grounding and Revision Procedure
 
 Generated outputs were reviewed against the Fixed Retrieved Curriculum Knowledge.
 
-When an initial generation introduced content that exceeded the defined curriculum boundary, a revision prompt was applied while preserving the intended learner-level Pedagogical Profile.
+When an initial generation introduced content that exceeded the defined curriculum boundary, a revision prompt was applied while attempting to preserve the intended learner-level Pedagogical Profile.
 
 For transparency, both the initial and revised outputs are retained in the repository when a grounding-related revision was required.
 
@@ -178,21 +230,47 @@ In the two current experiments:
 
 This is an observed pattern within the two controlled experiments and should not be interpreted as evidence that higher cognitive demand causes grounding problems.
 
+---
+
 ## Preliminary Results
 
-Across the two controlled experiments, the final outputs showed meaningful differentiation among the three learner levels while maintaining the fixed curriculum knowledge within each experiment.
+The criterion-based analysis showed that level differentiation across the two experiments was **partial and uneven rather than uniformly strong**.
 
-The general pattern observed was:
+The clearest and most consistent differentiation was observed in:
 
-- **Basic:** high scaffolding with emphasis on Remember and Understand.
-- **Intermediate:** moderate scaffolding with emphasis on Understand and Apply.
-- **Advanced:** low scaffolding with emphasis on Apply and Analyze.
+- **Cognitive Demand**
+- **Exercise Difficulty**
+- **Self-Assessment Difficulty**
+
+Weaker differentiation was observed in:
+
+- **Vocabulary Complexity**
+- **Explanation Depth**
+- **Scaffolding Level**
+
+The Basic packages were generally more clearly distinguishable from the higher-level packages.
+
+The distinction between Intermediate and Advanced was less consistent, particularly in vocabulary, explanatory structure, and instructional support.
+
+Some Advanced-level differences reflected more academically developed wording, longer formulations, or more demanding task instructions rather than a consistently distinct pedagogical treatment.
+
+At the same time, the control criteria—Curriculum Grounding, Learning Objectives Coverage, and Scientific Core Consistency—remained stable across the final outputs, as intended by the experimental design.
+
+The experiments therefore provide preliminary evidence that the Pedagogical Profile can influence some characteristics of generated educational content, particularly task-related cognitive demand, but the current profiles do not yet produce consistently distinct Basic, Intermediate, and Advanced packages across all predefined differentiation criteria.
+
+---
+
+## Grounding Observation
 
 In both experiments, the Basic output was accepted without grounding revision, while the initial Intermediate and Advanced outputs required grounding-related revisions.
 
-After revision, the intended level differentiation was retained while improving adherence to the fixed curriculum knowledge boundary.
+After revision, the higher-level packages retained more demanding learner activities while improving adherence to the fixed curriculum knowledge boundary.
 
-These observations provide preliminary feasibility evidence only and should not be interpreted as validation of the complete framework.
+This recurring pattern suggests that curriculum grounding and pedagogical differentiation should be treated as related but distinct generation requirements.
+
+The current experiments do not establish that increasing cognitive demand causes grounding problems.
+
+---
 
 ## Cross-Experiment Analysis
 
@@ -201,15 +279,19 @@ The repository includes a separate cross-experiment analysis comparing the Mitos
 The analysis examines:
 
 - consistency of the experimental procedure;
+- control and differentiation criteria;
 - level differentiation across the two curriculum sections;
 - grounding-related revision patterns;
 - preservation of the scientific core;
-- and preliminary design implications.
+- recurring strengths and weaknesses; and
+- preliminary design implications.
 
 See:
 
 - `cross-experiment-analysis/comparison.md`
 - `cross-experiment-analysis/preliminary-findings.md`
+
+---
 
 ## How to Navigate the Repository
 
@@ -232,6 +314,8 @@ For each experiment, the recommended reading order is:
 
 After reviewing both experiments, the `cross-experiment-analysis` folder provides the comparison and preliminary findings across Mitosis and Meiosis.
 
+---
+
 ## Current Scope and Limitations
 
 The experiments documented in this repository represent controlled proof-of-concept work.
@@ -249,16 +333,42 @@ At the current stage:
 
 Therefore, the current experiments should be interpreted as preliminary testing of the **curriculum-grounded, level-aware content generation component** of the proposed framework.
 
+---
+
+## Design Implication
+
+The repeated pattern across Mitosis and Meiosis indicates that the Pedagogical Profiles require further refinement.
+
+In particular, the next iteration should define more observable and operational differences in:
+
+- vocabulary and sentence complexity;
+- depth of conceptual relationships;
+- amount and type of scaffolding;
+- learner independence;
+- cognitive operations;
+- exercise design; and
+- self-assessment design.
+
+The objective of this refinement is to improve differentiation across the three intended learner levels while maintaining the same curriculum knowledge boundary and scientific learning objectives.
+
+The original experiments, prompts, and outputs will remain unchanged as historical experimental records. Any refined profiles and regenerated outputs should be documented as a new experimental iteration.
+
+---
+
 ## Next Development Stage
 
 The next experimental stage will extend the proof-of-concept toward the broader adaptive flow proposed in the research:
 
 **Learner Assessment → Learner Level → Pedagogical Profile → Curriculum Retrieval → Level-Aware Generation → Assessment → Performance Analysis → Adaptive Recommendation → Profile Update**
 
-This next stage will distinguish clearly between components that are technically implemented and components that are functionally simulated within controlled testing.
+Before making stronger claims about level-aware generation, the Pedagogical Profiles and generation prompts should be refined based on the findings from the current two experiments.
+
+The next stage should distinguish clearly between components that are technically implemented and components that are functionally simulated within controlled testing.
 
 Formal expert-based evaluation will remain a separate evaluation stage.
 
+---
+
 ## Research Status
 
-**Status:** Ongoing Master's Research – Controlled Proof-of-Concept Stage
+**Status:** Ongoing Master's Research – Controlled Proof-of-Concept and Refinement Stage
