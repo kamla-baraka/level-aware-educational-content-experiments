@@ -9,69 +9,102 @@ The following findings were derived from the researcher-based comparison of two 
 
 Both experiments used selected content from the Palestinian Grade 8 Science curriculum and followed the same general level-aware generation procedure.
 
-These findings represent preliminary feasibility observations. They do not constitute validation of the complete proposed framework, formal expert evaluation, learner-effectiveness evidence, or generalizable conclusions.
+These findings represent preliminary feasibility and design observations. They do not constitute validation of the complete proposed framework, formal expert evaluation, learner-effectiveness evidence, or generalizable conclusions.
 
 ---
 
-## Finding 1 – Level-Aware Differentiation Was Observed
+## Finding 1 – Level Differentiation Was Partial and Uneven
 
-Across both experiments, the final generated educational packages showed distinguishable Basic, Intermediate, and Advanced characteristics.
+Across both experiments, differences were observed among the final Basic, Intermediate, and Advanced educational packages.
 
-The general progression observed was:
+However, the differentiation was not equally clear across all predefined criteria.
 
-**Basic → High Scaffolding → Remember / Understand**
+The strongest and most consistent differences were observed in:
 
-**Intermediate → Moderate Scaffolding → Understand / Apply**
+- Cognitive Demand;
+- Exercise Difficulty; and
+- Self-Assessment Difficulty.
 
-**Advanced → Low Scaffolding → Apply / Analyze**
+Weaker differentiation was observed in:
 
-The differences were reflected in:
+- Vocabulary Complexity;
+- Explanation Depth; and
+- Scaffolding Level.
+
+The Basic packages were generally more clearly distinguishable from the higher-level packages.
+
+The distinction between Intermediate and Advanced was less consistent, particularly in vocabulary, explanatory structure, and instructional support.
+
+Some Advanced-level differences reflected more academically developed wording, longer formulations, or more demanding task instructions rather than a consistently distinct pedagogical treatment.
+
+Therefore, the two experiments provide preliminary evidence of **partial level differentiation**, rather than uniformly strong differentiation across Basic, Intermediate, and Advanced.
+
+---
+
+## Finding 2 – Control Criteria Remained Stable Across Learner Levels
+
+Within each experiment, the following elements were intentionally held constant:
+
+- curriculum source;
+- selected lesson scope;
+- five Learning Objectives;
+- Fixed Retrieved Curriculum Knowledge; and
+- four-component Output Structure.
+
+Three comparison criteria therefore functioned primarily as control criteria:
+
+- Curriculum Grounding;
+- Learning Objectives Coverage; and
+- Scientific Core Consistency.
+
+These criteria remained largely consistent across the final Basic, Intermediate, and Advanced outputs after required grounding revisions.
+
+This consistency was expected because learner-level differentiation was intended to change how the same scientific knowledge was presented and processed, rather than which scientific knowledge was taught.
+
+---
+
+## Finding 3 – The Pedagogical Profile Influenced Some Dimensions More Strongly Than Others
+
+The Pedagogical Profile was the main experimental variable intentionally changed across the three learner levels.
+
+The two experiments indicate that this variable influenced some output characteristics more clearly than others.
+
+Its strongest observable influence occurred in:
+
+- the cognitive operations required from the learner;
+- exercise design; and
+- self-assessment design.
+
+Its influence was less distinct in:
 
 - vocabulary complexity;
-- explanation depth;
-- scaffolding;
-- learner independence;
-- cognitive demand;
-- exercise difficulty;
-- and self-assessment difficulty.
+- explanation depth; and
+- scaffolding.
 
-This provides preliminary evidence that level differentiation can be produced without intentionally assigning different scientific knowledge to each learner level.
+This recurring pattern suggests that the current Pedagogical Profiles require more precise operational definitions if they are intended to produce clearly distinguishable Basic, Intermediate, and Advanced packages across all predefined differentiation criteria.
 
 ---
 
-## Finding 2 – The Scientific Core Could Remain Fixed While the Pedagogical Treatment Changed
+## Finding 4 – Higher Task Demand Could Be Created Without Intentionally Adding New Scientific Knowledge
 
-Within each experiment, the curriculum source, selected lesson scope, Learning Objectives, Fixed Retrieved Curriculum Knowledge, and Output Structure were held constant across the three learner levels.
+After grounding-related revisions, the higher-level packages retained more demanding learner activities while remaining within the fixed curriculum knowledge boundary.
 
-The main intentionally varied element was the Pedagogical Profile.
+Higher task demand was created through operations such as:
 
-The final outputs therefore demonstrated a distinction between:
-
-- **WHAT knowledge is available for generation**, controlled by curriculum grounding; and
-- **HOW that knowledge is presented and processed**, controlled by the Pedagogical Profile.
-
-This distinction was observed in both Mitosis and Meiosis.
-
----
-
-## Finding 3 – Higher Difficulty Did Not Require Additional Scientific Knowledge
-
-The final Advanced packages remained more cognitively demanding than the Basic and Intermediate packages after unsupported scientific extensions were removed.
-
-Advanced-level difficulty was maintained through:
-
+- application;
 - interpretation;
 - comparison;
 - relationship analysis;
-- justification;
-- integration;
-- and synthesis of the fixed curriculum knowledge.
+- justification; and
+- integration of fixed concepts.
 
-This suggests that greater pedagogical difficulty can be designed through cognitive operations applied to the same knowledge rather than through the addition of higher-grade or external scientific content.
+This provides preliminary design evidence that task difficulty can be increased by changing how learners process the same curriculum knowledge rather than by intentionally introducing higher-grade or external scientific content.
+
+However, this finding applies primarily to the task and assessment dimensions of the generated packages and should not be interpreted as evidence that all pedagogical dimensions were successfully differentiated.
 
 ---
 
-## Finding 4 – Grounding-Related Revisions Were Required in Both Experiments
+## Finding 5 – Grounding-Related Revisions Were Required in Both Experiments
 
 The same broad revision pattern occurred in both controlled experiments:
 
@@ -88,14 +121,14 @@ Examples included:
 - ambiguous or expanded scientific explanations;
 - hypothetical numerical examples outside the fixed knowledge;
 - unsupported causal explanations;
-- hypothetical scenarios;
-- and analytical extensions beyond the intended curriculum boundary.
+- hypothetical scenarios; and
+- analytical extensions beyond the intended curriculum boundary.
 
-These issues were addressed through prompt refinement and stronger grounding constraints.
+These issues were addressed through revision prompts and stronger grounding constraints.
 
 ---
 
-## Finding 5 – Grounding and Cognitive Demand Require Joint Control
+## Finding 6 – Grounding and Cognitive Demand Require Joint Control
 
 Across the two experiments, grounding-related issues appeared in the initial Intermediate and Advanced generations, while the Basic generations were accepted without grounding revision.
 
@@ -103,23 +136,42 @@ This recurring pattern suggests that maintaining a strict curriculum boundary ma
 
 However, the two experiments are insufficient to establish that higher cognitive demand causes grounding problems.
 
-The observation instead indicates a design requirement for the proposed framework: level-aware prompting should operate together with explicit curriculum-grounding constraints.
+The observation instead indicates an important design requirement for the proposed framework: level-aware prompting should operate together with explicit curriculum-grounding constraints.
 
 ---
 
-## Finding 6 – Prompt Refinement Improved Boundary Adherence Without Removing Level Differentiation
+## Finding 7 – Prompt Refinement Improved Curriculum-Boundary Adherence
 
 In both experiments, revision prompts were used to remove content that exceeded the Fixed Retrieved Curriculum Knowledge.
 
-The revisions did not simply reduce the difficulty of the generated packages.
+The revisions allowed the Intermediate and Advanced packages to retain higher-demand learner activities while improving adherence to the defined curriculum boundary.
 
-Instead, the revised outputs retained their intended Pedagogical Profiles while constraining the scientific content to the defined curriculum boundary.
+This provides preliminary evidence that grounding constraints can be strengthened without necessarily reducing the cognitive demand of the generated activities.
 
-This provides preliminary design evidence that grounding refinement and pedagogical differentiation can operate together rather than functioning as competing requirements.
+However, the revised outputs still showed uneven differentiation in vocabulary complexity, explanation depth, and scaffolding.
+
+Therefore, successful grounding refinement should not be treated as equivalent to successful level differentiation.
+
+The two requirements should be evaluated separately.
 
 ---
 
-## Finding 7 – The Two Experiments Tested Only Part of the Proposed Framework
+## Finding 8 – The WHAT/HOW Distinction Remains Useful but Requires More Precise HOW Controls
+
+The experiments support a conceptual distinction between:
+
+- **WHAT knowledge may be used**, controlled by curriculum grounding; and
+- **HOW that knowledge is presented, practiced, and assessed**, intended to be controlled by the Pedagogical Profile.
+
+The curriculum-related controls were successfully maintained in the final accepted outputs.
+
+However, the Pedagogical Profile did not influence every differentiation dimension equally.
+
+The results therefore suggest that the WHAT/HOW distinction remains useful for the proposed framework, but the rules controlling **HOW** content changes across Basic, Intermediate, and Advanced levels require further refinement and more measurable definitions.
+
+---
+
+## Finding 9 – The Two Experiments Tested Only Part of the Proposed Framework
 
 The proof-of-concept experiments primarily examined the curriculum-grounded, level-aware content generation component.
 
@@ -141,11 +193,41 @@ These components therefore remain separate stages of the proposed framework and 
 
 ## Preliminary Overall Finding
 
-Across two selected Grade 8 Science curriculum sections, the controlled proof-of-concept experiments provided preliminary evidence that the same curriculum-grounded knowledge could be transformed into meaningfully differentiated Basic, Intermediate, and Advanced educational packages by varying the Pedagogical Profile while maintaining fixed curriculum knowledge, Learning Objectives, and Output Structure within each experiment.
+Across two selected Grade 8 Science curriculum sections, changing the Pedagogical Profile while maintaining fixed content-related variables produced observable differences in the generated Basic, Intermediate, and Advanced educational packages.
 
-The experiments also revealed a recurring grounding challenge in the initial higher-demand generations. Prompt refinement and stronger grounding constraints reduced these curriculum-boundary issues while preserving the intended level differentiation.
+However, the differentiation was **partial and uneven across the predefined criteria**.
 
-These findings support continued development and testing of the proposed framework, but they remain preliminary and limited to the current controlled proof-of-concept setting.
+The clearest recurring differences were observed in Cognitive Demand, Exercise Difficulty, and Self-Assessment Difficulty.
+
+Vocabulary Complexity, Explanation Depth, and Scaffolding showed weaker differentiation, particularly between the Intermediate and Advanced packages.
+
+The experiments also revealed a recurring grounding challenge in the initial Intermediate and Advanced generations. Revision prompts and stronger grounding constraints improved curriculum-boundary adherence while retaining higher-demand learner activities.
+
+Taken together, the findings indicate that the current level-aware generation approach is promising as a preliminary design direction, but the Pedagogical Profiles and generation prompts require further refinement before stronger claims about clearly separated Basic, Intermediate, and Advanced educational packages can be made.
+
+---
+
+## Design Implication for the Next Iteration
+
+The next refinement should focus on making the differentiation criteria more operational and observable.
+
+In particular, future Pedagogical Profiles should specify more explicit rules for:
+
+- vocabulary and sentence complexity;
+- depth of conceptual relationships;
+- amount and type of scaffolding;
+- learner independence;
+- cognitive operations;
+- exercise design; and
+- self-assessment design.
+
+The purpose of this refinement should be to create more clearly distinguishable levels while preserving:
+
+- the same curriculum knowledge boundary;
+- the same scientific learning objectives; and
+- the same core scientific content.
+
+Any refined profiles should then be tested in a new documented iteration rather than replacing the original experimental records.
 
 ---
 
