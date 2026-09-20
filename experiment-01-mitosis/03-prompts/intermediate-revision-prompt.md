@@ -12,35 +12,29 @@ Intermediate
 
 Revision Prompt
 
-## Revision Prompt
+## Original Revision Prompt
 
-Revise the Intermediate Level – Mitosis package while keeping the same Intermediate Pedagogical Profile, the same five Learning Objectives, the same fixed retrieved curriculum knowledge, and the same four output components.
+Review the generated Intermediate Level – Mitosis package against the previously fixed retrieved curriculum knowledge.
 
-Make only the following corrections:
+Keep the Intermediate Pedagogical Profile and the same four output components unchanged.
 
-1. Remove or revise any question that may create ambiguity between DNA duplication, chromosome duplication, chromatids, and chromosome number.
+However, revise any statement, explanation, exercise, or question that introduces scientific information or assumptions beyond the previously retrieved curriculum knowledge.
 
-2. Keep all explanations and assessment items strictly within the previously retrieved curriculum knowledge.
+In particular:
 
-3. Do not introduce additional causal or mechanistic scientific explanations that were not included in the fixed retrieved knowledge.
+Avoid adding scientific properties or mechanisms that were not explicitly included in the fixed retrieved knowledge.
 
-4. Preserve the intended Intermediate cognitive demand:
-   - Understand
-   - Apply
+Revise Exercise 3 so that it does not create ambiguity between DNA duplication/chromatid duplication and chromosome number.
 
-5. Keep the Intermediate level clearly more demanding than the Basic level through sequencing, relationships, comparison, and simple application, without adding external scientific knowledge.
+Keep the cognitive demand at Understand and Apply, but achieve this through relationships, sequencing, comparison, and simple application of the available curriculum knowledge rather than through adding new scientific knowledge.
 
-Generate exactly these four components:
+Use only the fixed retrieved curriculum knowledge already established for this experiment.
+
+Return the complete revised Intermediate package, maintaining exactly:
 
 1. Explanations
 2. Key Vocabulary
 3. Exercises
 4. Self-Assessment Questions
 
-Do not add any additional sections.
-
-Generate the revised package in Arabic for a Palestinian Grade 8 learner.
-
-Label the output:
-
-Intermediate Level – Mitosis (Revised)
+Do not generate the Advanced package yet.
