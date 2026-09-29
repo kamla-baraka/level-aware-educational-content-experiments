@@ -308,8 +308,7 @@ Likewise, the stages of Mitosis are initially retained as a connected sequence r
 
 This decision does not establish a final preferred chunk granularity.
 
-The previous preliminary chunking exploration indicated a potential trade-off between fine-grained and broader concept-aware representations. Therefore, alternative chunk configurations remain subject to later controlled retrieval testing.
-
+The previous exploratory chunking exercise suggested that fine-grained and broader concept-aware representations may exhibit different retrieval behaviors depending on query scope. Therefore, alternative chunk configurations remain subject to later controlled retrieval testing.
 ---
 
 ## 8. Current Scope and Limitations
@@ -318,7 +317,7 @@ This stage establishes an initial concept-aware semantic segmentation of the sel
 
 At this stage:
 
-- no final chunk size is selected;
+- no final chunk size or semantic granularity is selected;
 - no fixed overlap setting is selected;
 - no embedding model is selected through this segmentation process;
 - no superiority is assigned to fine-grained or broader chunking;
