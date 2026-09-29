@@ -1,0 +1,4 @@
+﻿configuration,chunk_count,min_words,max_words,mean_words,median_words,min_characters,max_characters,mean_characters
+A_Fine,17,12,132,61.24,59.0,69,659,319.71
+B_Baseline,11,46,201,94.64,81.0,254,1007,494.09
+C_Broad,9,55,253,115.67,120.0,305,1261,603.89
