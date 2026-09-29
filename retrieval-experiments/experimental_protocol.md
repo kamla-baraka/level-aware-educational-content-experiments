@@ -92,8 +92,8 @@ Initial configuration:
 - A12 — Mitosis Questions
 - A13 — Plant and Animal Cell Division
 - A14 — Meiosis
-- A15 — Chromosome Number Change and Curriculum Context
-- A16 — Down Syndrome Characteristics and Activities
+- A15 — Down Syndrome Curriculum Context
+- A16 — Chromosome Number Change and Down Syndrome
 - A17 — Chromosome 21 and Meiosis Error
 
 Total initial chunks: 17.
@@ -111,8 +111,8 @@ The baseline configuration corresponds to the initial concept-aware semantic seg
 - B07 — Mitosis Questions
 - B08 — Plant and Animal Cell Division
 - B09 — Meiosis
-- B10 — Chromosome Number Change and Curriculum Context
-- B11 — Down Syndrome and Chromosome 21
+- B10 — Down Syndrome Curriculum Context
+- B11 — Chromosome Number Change, Down Syndrome and Chromosome 21
 
 Total chunks: 11.
 
@@ -651,6 +651,22 @@ Once retrieval execution begins, these definitions will not be changed in respon
 
 If a genuine implementation or source-mapping error is discovered, the error and correction will be documented and all affected runs will be repeated consistently.
 
+### Pre-Execution Source-Mapping Validation Note
+
+During pre-execution source-mapping validation, a cross-page source continuation was identified between `p28_u12` and `p29_u01`.
+
+The two source units form a continuous curriculum statement across pages 28–29. Their semantic mapping was therefore adjusted to preserve source continuity and semantic coherence.
+
+This correction was made before embedding generation, retrieval execution, or inspection of retrieval results.
+
+After the correction, all three experimental chunk configurations were programmatically validated:
+
+- Configuration A: 17 chunks, 63/63 source units covered exactly once.
+- Configuration B: 11 chunks, 63/63 source units covered exactly once.
+- Configuration C: 9 chunks, 63/63 source units covered exactly once.
+- Missing source units: 0.
+- Duplicate source units: 0.
+- Unknown source units: 0.
 ---
 
 ## 14. Configuration-Level Analysis
