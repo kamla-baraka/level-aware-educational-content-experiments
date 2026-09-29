@@ -1,0 +1,134 @@
+{
+  "query_set_metadata": {
+    "experiment": "Preliminary Retrieval Experiments",
+    "source": "Official Palestinian Grade 8 Science Curriculum",
+    "lesson": "Cell Division",
+    "language": "Arabic",
+    "number_of_queries": 12,
+    "purpose": "Evaluate semantic retrieval behavior across predefined chunk configurations, overlap settings, and multilingual embedding models.",
+    "ground_truth_definition": "Expected curriculum content is defined as the curriculum information required to answer each query. It is used for retrieval evaluation and is not defined by expected chunk IDs.",
+    "pre_execution_status": "Frozen before embedding generation and retrieval execution."
+  },
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query_ar": "ماذا يحدث للمادة الوراثية DNA قبل انقسام الخلية؟",
+      "query_type": "Direct/Narrow",
+      "expected_curriculum_content": [
+        "تتضاعف مادة الوراثة DNA قبل البدء بعملية الانقسام."
+      ]
+    },
+    {
+      "query_id": "Q02",
+      "query_ar": "مم يتكون الكروموسوم المتضاعف وكيف يرتبط مكوناه؟",
+      "query_type": "Direct/Narrow",
+      "expected_curriculum_content": [
+        "يتكون الكروموسوم المتضاعف من كروماتيدين.",
+        "يرتبط الكروماتيدان بنقطة تسمى السنترومير."
+      ]
+    },
+    {
+      "query_id": "Q03",
+      "query_ar": "ما نوع الانقسام المرتبط بالخلايا الجسمية وما نتيجته؟",
+      "query_type": "Direct/Relational",
+      "expected_curriculum_content": [
+        "تنقسم الخلايا الجسمية بطريقة الانقسام المتساوي.",
+        "ينتج عن الانقسام المتساوي خليتان ابنتان.",
+        "تحتوي الخليتان الناتجتان على نفس عدد كروموسومات الخلية الأم."
+      ]
+    },
+    {
+      "query_id": "Q04",
+      "query_ar": "ماذا يحدث للخلية في الطور البيني؟",
+      "query_type": "Direct/Narrow",
+      "expected_curriculum_content": [
+        "تنمو الخلية.",
+        "يزداد حجم الخلية.",
+        "تتضاعف كمية المادة الوراثية DNA."
+      ]
+    },
+    {
+      "query_id": "Q05",
+      "query_ar": "ماذا يحدث للكروماتيدات الشقيقة في الدور الانفصالي؟",
+      "query_type": "Direct/Narrow",
+      "expected_curriculum_content": [
+        "تتباعد الكروماتيدات الشقيقة.",
+        "يحدث التباعد بفعل انكماش خيوط المغزل.",
+        "يتجه كل منها إلى قطب."
+      ]
+    },
+    {
+      "query_id": "Q06",
+      "query_ar": "ما مراحل الانقسام المتساوي وما الذي يحدث خلالها حتى تنتج خليتان؟",
+      "query_type": "Sequence/Multi-part",
+      "expected_curriculum_content": [
+        "الدور التمهيدي.",
+        "الدور الاستوائي.",
+        "الدور الانفصالي.",
+        "الدور النهائي.",
+        "انقسام السيتوبلازم.",
+        "تنتج خليتان متماثلتان.",
+        "تحتوي كل خلية ناتجة على نفس عدد كروموسومات الخلية الأم."
+      ]
+    },
+    {
+      "query_id": "Q07",
+      "query_ar": "ما أوجه الاختلاف بين انقسام الخلية النباتية والخلية الحيوانية كما يعرضها المنهج؟",
+      "query_type": "Comparison",
+      "expected_curriculum_content": [
+        "يظهر في انقسام الخلية النباتية تكون الصفيحة الوسطى.",
+        "يظهر في انقسام الخلية الحيوانية تخصر الغشاء."
+      ]
+    },
+    {
+      "query_id": "Q08",
+      "query_ar": "ما نتيجة الانقسام المنصف من حيث عدد الخلايا وعدد الكروموسومات؟",
+      "query_type": "Direct/Narrow",
+      "expected_curriculum_content": [
+        "ينتج أربع خلايا.",
+        "تحتوي كل خلية ناتجة على نصف العدد الأصلي من الكروموسومات في الخلية الأم."
+      ]
+    },
+    {
+      "query_id": "Q09",
+      "query_ar": "ما العلاقة بين الخلايا الجسمية والخلايا التناسلية ونوع الانقسام الذي يحدث في كل منها؟",
+      "query_type": "Relational/Comparison",
+      "expected_curriculum_content": [
+        "الخلايا الجسمية تنقسم بطريقة الانقسام المتساوي.",
+        "الخلايا التناسلية تنقسم بطريقة الانقسام المنصف.",
+        "الانقسام المنصف في الخلايا التناسلية ينتج الغاميتات."
+      ]
+    },
+    {
+      "query_id": "Q10",
+      "query_ar": "كيف يمكن أن يؤدي خلل أثناء الانقسام المنصف إلى وجود 47 كروموسومًا؟",
+      "query_type": "Causal/Multi-step",
+      "expected_curriculum_content": [
+        "يحدث خلل أثناء الانقسام المنصف في الخلايا الجنسية.",
+        "قد ينتج غاميت يحتوي على 24 كروموسومًا.",
+        "يتحد مع غاميت طبيعي يحتوي على 23 كروموسومًا.",
+        "ينتج عن ذلك 47 كروموسومًا."
+      ]
+    },
+    {
+      "query_id": "Q11",
+      "query_ar": "ما الفرق بين نواتج الانقسام المتساوي والانقسام المنصف من حيث عدد الخلايا وعدد الكروموسومات؟",
+      "query_type": "Comparison/Multi-concept",
+      "expected_curriculum_content": [
+        "الانقسام المتساوي ينتج خليتين.",
+        "الخليتان الناتجتان عن الانقسام المتساوي تحتويان على نفس عدد كروموسومات الخلية الأم.",
+        "الانقسام المنصف ينتج أربع خلايا.",
+        "كل خلية ناتجة عن الانقسام المنصف تحتوي على نصف العدد الأصلي من كروموسومات الخلية الأم."
+      ]
+    },
+    {
+      "query_id": "Q12",
+      "query_ar": "ما عدد الكروموسومات في خلايا الإنسان العادي وما العدد الموجود في متلازمة داون؟",
+      "query_type": "Direct/Comparison",
+      "expected_curriculum_content": [
+        "خلايا الإنسان العادي تحتوي على 46 كروموسومًا.",
+        "خلايا المصاب بمتلازمة داون تحتوي على 47 كروموسومًا."
+      ]
+    }
+  ]
+}
