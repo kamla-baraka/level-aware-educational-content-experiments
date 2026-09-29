@@ -187,43 +187,51 @@ A controlled comparison requires implementation of the retrieval pipeline where 
 
 ## 10. Preliminary Design Implication
 
-The experiment supports retaining **concept-aware semantic segmentation** as the initial design direction.
+The experiment supports retaining **concept-aware semantic chunking** as the initial design direction.
 
-However, it does not support fixing a single universal chunk granularity at this stage.
+Consistent with the proposed research methodology, the chunking strategy will be guided by:
 
-A reasonable next step is to preserve semantic boundaries while allowing chunk granularity to be evaluated experimentally during RAG implementation.
+- curriculum structure;
+- learning objectives;
+- topic boundaries;
 
-The controlled evaluation should compare alternative chunk configurations using the same curriculum content and query set while directly inspecting retrieved chunks.
+with the aim of preserving contextual coherence.
 
-Possible variables for later testing include:
+The preliminary experiment does not support fixing a single universal chunk granularity at this stage.
 
-- chunk granularity;
+Instead, alternative chunk configurations should be evaluated experimentally during the implementation of the RAG pipeline.
+
+The controlled retrieval experiments will allow direct inspection of the retrieved curriculum chunks and will examine retrieval configurations including:
+
 - chunk size;
-- overlap strategy;
-- embedding model;
-- retrieval `top-k`.
+- overlap settings;
+- embedding model selection.
+
+These experiments will be used to inform the selection of a suitable retrieval configuration for the curriculum knowledge base.
 
 ---
 
 ## 11. Current Decision
 
-Based on this preliminary experiment:
+Based on this preliminary experiment and the proposed research methodology:
 
-1. Concept-aware semantic boundaries remain the primary basis for curriculum segmentation.
-2. Page boundaries will not automatically define chunk boundaries.
-3. Fine-grained and broader concept-aware alternatives remain candidates for controlled testing.
-4. No fixed overlap is selected at this stage.
-5. No final chunk size is selected at this stage.
-6. The final chunking configuration will be determined during controlled RAG retrieval experiments rather than from the NotebookLM pilot alone.
+1. The curriculum will be segmented using a **concept-aware semantic chunking strategy**.
+2. The segmentation will be guided by **curriculum structure, learning objectives, and topic boundaries** to preserve contextual coherence.
+3. Fine-grained and broader concept-aware representations remain possible configurations for later controlled retrieval testing.
+4. No final chunk size is selected at this stage.
+5. No fixed overlap setting is selected at this stage.
+6. The final retrieval configuration will be informed by preliminary experiments conducted during RAG implementation, including the evaluation of chunk size, overlap settings, and embedding model selection.
 
 ---
 
 ## 12. Conclusion
 
-The preliminary NotebookLM experiment demonstrated that both fine-grained and broader concept-aware representations were sufficient to support grounded responses to the selected Mitosis queries.
+The preliminary NotebookLM experiment showed that both fine-grained and broader concept-aware representations were able to support answers to the selected Mitosis queries using the provided curriculum source.
 
-Fine-grained representation provided more targeted source units for narrow questions, whereas broader representation preserved related stage information within a single context for broader and sequential questions.
+Fine-grained representation was associated with more targeted source sections for narrow questions, whereas broader representation preserved related stage information within a single source section for broader and sequential questions.
 
-These observations reveal a granularity trade-off but do not establish the superiority of either representation.
+These observations indicate a potential granularity trade-off but do not establish the superiority of either representation.
 
-The findings therefore inform the design of the subsequent controlled RAG experiments, where retrieval behavior can be directly measured and the final chunking configuration can be selected using controlled evidence.
+Accordingly, the experiment is retained as a **preliminary chunking exploration** rather than a controlled RAG chunking evaluation.
+
+The subsequent curriculum segmentation will follow the concept-aware semantic chunking strategy defined in the research methodology, guided by curriculum structure, learning objectives, and topic boundaries. The final retrieval configuration will be investigated later within the implemented RAG pipeline, where chunk size, overlap settings, and embedding model selection can be evaluated under controlled conditions.
