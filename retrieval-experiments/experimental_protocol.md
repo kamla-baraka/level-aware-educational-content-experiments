@@ -166,6 +166,30 @@ Cross-page continuation that belongs to the original curriculum source is treate
 
 If implementation validation demonstrates that an overlap condition produces no distinct representation for a particular configuration, that condition will be documented as non-distinct rather than treated as an independent experimental result.
 
+### O1 — One-Source-Unit Overlap
+
+The overlap condition uses a fixed one-source-unit contextual overlap between adjacent semantic chunks within each experimental chunk configuration.
+
+For each chunk after the first chunk in a configuration, the final source unit of the immediately preceding chunk is duplicated at the beginning of the current chunk.
+
+The original semantic chunk boundaries remain unchanged. The duplicated source unit is included only as retrieval context and does not alter the underlying curriculum coverage or semantic chunk identity.
+
+This overlap procedure was selected after pre-execution measurement of the actual chunk-length distributions and before embedding generation or retrieval execution.
+
+The procedure is applied consistently across the fine-grained, baseline, and broader configurations.
+
+The overlap:
+
+- uses only existing curriculum source content;
+- introduces no generated bridging text;
+- introduces no external knowledge;
+- preserves source-unit identifiers and provenance; and
+- follows the same deterministic procedure across configurations.
+
+Cross-page continuation that belongs to the original curriculum source is treated as source continuity rather than experimental overlap.
+
+The O1 setting is fixed before retrieval execution and will not be modified based on retrieval results.
+
 ---
 
 ## 3.3 Candidate Embedding Models
@@ -667,6 +691,21 @@ After the correction, all three experimental chunk configurations were programma
 - Missing source units: 0.
 - Duplicate source units: 0.
 - Unknown source units: 0.
+
+### Pre-Execution Chunk-Length Measurement and Overlap Decision
+
+Before embedding generation or retrieval execution, the constructed semantic chunk configurations were measured descriptively.
+
+The observed word-count distributions were:
+
+- Configuration A (Fine): 17 chunks, 12–132 words, mean = 61.24, median = 59.
+- Configuration B (Baseline): 11 chunks, 46–201 words, mean = 94.64, median = 81.
+- Configuration C (Broad): 9 chunks, 55–253 words, mean = 115.67, median = 120.
+
+Based on these pre-execution measurements, O1 was operationalized as a deterministic one-source-unit overlap rather than a fixed word or token percentage.
+
+This decision was made before embedding generation, query execution, or inspection of retrieval results.
+
 ---
 
 ## 14. Configuration-Level Analysis
