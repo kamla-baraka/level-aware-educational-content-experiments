@@ -1,4 +1,0 @@
-﻿configuration,run_count,full_hit_at_1_count,full_hit_at_1_rate,full_hit_at_3_count,full_hit_at_3_rate,mean_coverage_at_3,min_coverage_at_3,full_hit_at_1_percent,full_hit_at_3_percent,mean_coverage_at_3_percent
-A_Fine,72,40,0.5555555555555556,55,0.7638888888888888,0.849537037037037,0.0,55.56,76.39,84.95
-B_Baseline,72,42,0.5833333333333334,60,0.8333333333333334,0.8819444444444444,0.0,58.33,83.33,88.19
-C_Broad,72,38,0.5277777777777778,60,0.8333333333333334,0.8716931216931216,0.0,52.78,83.33,87.17
