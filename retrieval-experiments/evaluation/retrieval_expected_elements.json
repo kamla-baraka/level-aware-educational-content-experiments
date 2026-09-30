@@ -1,0 +1,246 @@
+{
+  "definition": "Expected-element IDs provide stable identifiers for the frozen Expected Curriculum Content used during retrieval annotation. IDs are local to each query.",
+  "id_scope": "Element IDs restart at E01 for each query and must always be interpreted together with query_id.",
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query_ar": "ماذا يحدث للمادة الوراثية DNA قبل انقسام الخلية؟",
+      "query_type": "Direct/Narrow",
+      "expected_element_count": 1,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "تتضاعف مادة الوراثة DNA قبل البدء بعملية الانقسام."
+        }
+      ]
+    },
+    {
+      "query_id": "Q02",
+      "query_ar": "مم يتكون الكروموسوم المتضاعف وكيف يرتبط مكوناه؟",
+      "query_type": "Direct/Narrow",
+      "expected_element_count": 2,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "يتكون الكروموسوم المتضاعف من كروماتيدين."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "يرتبط الكروماتيدان بنقطة تسمى السنترومير."
+        }
+      ]
+    },
+    {
+      "query_id": "Q03",
+      "query_ar": "ما نوع الانقسام المرتبط بالخلايا الجسمية وما نتيجته؟",
+      "query_type": "Direct/Relational",
+      "expected_element_count": 3,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "تنقسم الخلايا الجسمية بطريقة الانقسام المتساوي."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "ينتج عن الانقسام المتساوي خليتان ابنتان."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "تحتوي الخليتان الناتجتان على نفس عدد كروموسومات الخلية الأم."
+        }
+      ]
+    },
+    {
+      "query_id": "Q04",
+      "query_ar": "ماذا يحدث للخلية في الطور البيني؟",
+      "query_type": "Direct/Narrow",
+      "expected_element_count": 3,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "تنمو الخلية."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "يزداد حجم الخلية."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "تتضاعف كمية المادة الوراثية DNA."
+        }
+      ]
+    },
+    {
+      "query_id": "Q05",
+      "query_ar": "ماذا يحدث للكروماتيدات الشقيقة في الدور الانفصالي؟",
+      "query_type": "Direct/Narrow",
+      "expected_element_count": 3,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "تتباعد الكروماتيدات الشقيقة."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "يحدث التباعد بفعل انكماش خيوط المغزل."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "يتجه كل منها إلى قطب."
+        }
+      ]
+    },
+    {
+      "query_id": "Q06",
+      "query_ar": "ما مراحل الانقسام المتساوي وما الذي يحدث خلالها حتى تنتج خليتان؟",
+      "query_type": "Sequence/Multi-part",
+      "expected_element_count": 7,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "الدور التمهيدي."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "الدور الاستوائي."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "الدور الانفصالي."
+        },
+        {
+          "element_id": "E04",
+          "element_text": "الدور النهائي."
+        },
+        {
+          "element_id": "E05",
+          "element_text": "انقسام السيتوبلازم."
+        },
+        {
+          "element_id": "E06",
+          "element_text": "تنتج خليتان متماثلتان."
+        },
+        {
+          "element_id": "E07",
+          "element_text": "تحتوي كل خلية ناتجة على نفس عدد كروموسومات الخلية الأم."
+        }
+      ]
+    },
+    {
+      "query_id": "Q07",
+      "query_ar": "ما أوجه الاختلاف بين انقسام الخلية النباتية والخلية الحيوانية كما يعرضها المنهج؟",
+      "query_type": "Comparison",
+      "expected_element_count": 2,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "يظهر في انقسام الخلية النباتية تكون الصفيحة الوسطى."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "يظهر في انقسام الخلية الحيوانية تخصر الغشاء."
+        }
+      ]
+    },
+    {
+      "query_id": "Q08",
+      "query_ar": "ما نتيجة الانقسام المنصف من حيث عدد الخلايا وعدد الكروموسومات؟",
+      "query_type": "Direct/Narrow",
+      "expected_element_count": 2,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "ينتج أربع خلايا."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "تحتوي كل خلية ناتجة على نصف العدد الأصلي من الكروموسومات في الخلية الأم."
+        }
+      ]
+    },
+    {
+      "query_id": "Q09",
+      "query_ar": "ما العلاقة بين الخلايا الجسمية والخلايا التناسلية ونوع الانقسام الذي يحدث في كل منها؟",
+      "query_type": "Relational/Comparison",
+      "expected_element_count": 3,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "الخلايا الجسمية تنقسم بطريقة الانقسام المتساوي."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "الخلايا التناسلية تنقسم بطريقة الانقسام المنصف."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "الانقسام المنصف في الخلايا التناسلية ينتج الغاميتات."
+        }
+      ]
+    },
+    {
+      "query_id": "Q10",
+      "query_ar": "كيف يمكن أن يؤدي خلل أثناء الانقسام المنصف إلى وجود 47 كروموسومًا؟",
+      "query_type": "Causal/Multi-step",
+      "expected_element_count": 4,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "يحدث خلل أثناء الانقسام المنصف في الخلايا الجنسية."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "قد ينتج غاميت يحتوي على 24 كروموسومًا."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "يتحد مع غاميت طبيعي يحتوي على 23 كروموسومًا."
+        },
+        {
+          "element_id": "E04",
+          "element_text": "ينتج عن ذلك 47 كروموسومًا."
+        }
+      ]
+    },
+    {
+      "query_id": "Q11",
+      "query_ar": "ما الفرق بين نواتج الانقسام المتساوي والانقسام المنصف من حيث عدد الخلايا وعدد الكروموسومات؟",
+      "query_type": "Comparison/Multi-concept",
+      "expected_element_count": 4,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "الانقسام المتساوي ينتج خليتين."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "الخليتان الناتجتان عن الانقسام المتساوي تحتويان على نفس عدد كروموسومات الخلية الأم."
+        },
+        {
+          "element_id": "E03",
+          "element_text": "الانقسام المنصف ينتج أربع خلايا."
+        },
+        {
+          "element_id": "E04",
+          "element_text": "كل خلية ناتجة عن الانقسام المنصف تحتوي على نصف العدد الأصلي من كروموسومات الخلية الأم."
+        }
+      ]
+    },
+    {
+      "query_id": "Q12",
+      "query_ar": "ما عدد الكروموسومات في خلايا الإنسان العادي وما العدد الموجود في متلازمة داون؟",
+      "query_type": "Direct/Comparison",
+      "expected_element_count": 2,
+      "expected_elements": [
+        {
+          "element_id": "E01",
+          "element_text": "خلايا الإنسان العادي تحتوي على 46 كروموسومًا."
+        },
+        {
+          "element_id": "E02",
+          "element_text": "خلايا المصاب بمتلازمة داون تحتوي على 47 كروموسومًا."
+        }
+      ]
+    }
+  ]
+}
