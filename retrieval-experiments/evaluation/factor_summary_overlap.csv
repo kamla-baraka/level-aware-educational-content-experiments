@@ -1,3 +1,0 @@
-﻿overlap_setting,run_count,full_hit_at_1_count,full_hit_at_1_rate,full_hit_at_3_count,full_hit_at_3_rate,mean_coverage_at_3,min_coverage_at_3,full_hit_at_1_percent,full_hit_at_3_percent,mean_coverage_at_3_percent
-O0,108,66,0.6111111111111112,88,0.8148148148148148,0.8641975308641975,0.0,61.11,81.48,86.42
-O1,108,54,0.5,87,0.8055555555555556,0.871252204585538,0.0,50.0,80.56,87.13
