@@ -1,0 +1,4 @@
+﻿model_id,run_count,full_hit_at_1_count,full_hit_at_1_rate,full_hit_at_3_count,full_hit_at_3_rate,mean_coverage_at_3,min_coverage_at_3,full_hit_at_1_percent,full_hit_at_3_percent,mean_coverage_at_3_percent
+E1,72,32,0.4444444444444444,56,0.7777777777777778,0.8402777777777778,0.0,44.44,77.78,84.03
+E2,72,45,0.625,58,0.8055555555555556,0.845568783068783,0.0,62.5,80.56,84.56
+E3,72,43,0.5972222222222222,61,0.8472222222222222,0.9173280423280423,0.0,59.72,84.72,91.73
