@@ -4,7 +4,7 @@
 
 This document defines the annotation rules used to evaluate the preliminary retrieval experiment.
 
-The rules are fixed before retrieval-quality annotation begins.
+The rules are aligned with the frozen Preliminary Retrieval Configuration Experiment Protocol and are applied before full retrieval-quality annotation begins.
 
 The evaluation is based on the frozen Expected Curriculum Content defined for Q01–Q12.
 
@@ -20,45 +20,42 @@ Each retrieved record is evaluated using:
 
 - the query;
 - the frozen Expected Curriculum Content;
+- the predefined expected-content elements;
 - the retrieved curriculum text.
 
 Similarity scores are retained as diagnostic retrieval outputs but are not used to determine relevance or expected-content recovery.
 
----
+When the same retrieved curriculum text occurs for the same query across multiple experimental conditions, the expected-content recovery judgment may be made once and propagated to identical query-text pairs.
 
-## 3. Curriculum Relevance
-
-Each retrieved chunk is assigned one of three labels:
-
-### Relevant
-
-A retrieved chunk is **Relevant** when it directly contains curriculum information needed to answer the query or directly contributes one or more required expected-content elements.
-
-### Partially Relevant
-
-A retrieved chunk is **Partially Relevant** when it is related to the queried curriculum concept and provides useful contextual information, but does not directly provide the required answer or expected-content element(s).
-
-### Not Relevant
-
-A retrieved chunk is **Not Relevant** when it does not provide information that directly answers or meaningfully supports the query.
+This deduplication is an implementation procedure only and does not change the experimental unit, raw retrieval results, or evaluation criteria.
 
 ---
 
-## 4. Expected-Content Recovery
+## 3. Expected-Content Recovery
 
-For each query, the predefined Expected Curriculum Content is divided into required elements.
+For each query, the predefined Expected Curriculum Content is represented by one or more required expected-content elements.
 
-A required element is counted as recovered when the retrieved curriculum text contains the same curriculum meaning.
+A required element is counted as recovered when the retrieved curriculum text directly contains the same curriculum meaning.
 
 Exact word-for-word matching is not required.
 
 No information may be inferred from external scientific knowledge.
 
-An element is not counted as recovered when the retrieved text only mentions the general topic without providing the required curriculum information.
+An element is not counted as recovered when the retrieved text:
+
+- only mentions the general topic;
+- asks a question without providing the required curriculum information;
+- provides related contextual information without the required curriculum meaning; or
+- requires external knowledge or unsupported inference to establish the element.
+
+For each expected-content element, the annotation judgment is:
+
+- `Yes` — the element is directly supported by the retrieved curriculum text.
+- `No` — the element is not directly supported by the retrieved curriculum text.
 
 ---
 
-## 5. Recovered Element Count
+## 4. Recovered Element Count
 
 For each retrieved chunk:
 
@@ -75,6 +72,42 @@ to:
 `expected_element_count`
 
 for the corresponding query.
+
+The recovered-element judgments are the primary basis for determining curriculum relevance.
+
+---
+
+## 5. Curriculum Relevance
+
+Each retrieved chunk is assigned one of three relevance labels based on recovery of the predefined Expected Curriculum Content.
+
+### Relevant
+
+A retrieved chunk is **Relevant** when it contains the complete Expected Curriculum Content required for the query.
+
+Operationally:
+
+`recovered_element_count = expected_element_count`
+
+### Partially Relevant
+
+A retrieved chunk is **Partially Relevant** when it directly recovers one or more required expected-content elements but does not contain the complete Expected Curriculum Content required for the query.
+
+Operationally:
+
+`0 < recovered_element_count < expected_element_count`
+
+This category therefore represents actual partial recovery of required curriculum content rather than general topical relatedness.
+
+### Not Relevant
+
+A retrieved chunk is **Not Relevant** when it recovers none of the required Expected Curriculum Content elements.
+
+Operationally:
+
+`recovered_element_count = 0`
+
+A chunk is therefore not considered partially relevant merely because it discusses the same general topic or provides related contextual information.
 
 ---
 
@@ -114,7 +147,7 @@ Otherwise:
 
 ## 8. Coverage@3
 
-Coverage@3 measures the proportion of required Expected Curriculum Content elements recovered collectively across the top three retrieved chunks.
+For queries with multiple predefined expected-content elements, Coverage@3 measures the proportion of required Expected Curriculum Content elements recovered collectively across the top three retrieved chunks.
 
 `Coverage@3 = Number of unique required elements recovered across Top-3 / Total number of required elements`
 
@@ -124,18 +157,22 @@ Coverage@3 ranges from:
 
 Duplicate recovery of the same element across multiple chunks does not increase coverage.
 
+Coverage@3 is reported according to the experimental protocol for queries with multiple predefined expected-content elements.
+
 ---
 
 ## 9. Annotation Notes
 
-The `annotation_notes` field may be used to document:
+The `annotation_notes` field may be used when clarification is required, including:
 
-- ambiguous relevance;
-- partial recovery;
+- ambiguous curriculum wording;
+- partial recovery requiring explanation;
 - duplicated information across retrieved chunks;
 - overlap-related context;
-- curriculum wording that requires interpretation;
+- source-continuity issues; or
 - other issues relevant to later review.
+
+Notes are optional when the recovery judgment is clear.
 
 Notes must not introduce external scientific information.
 
@@ -146,6 +183,8 @@ Notes must not introduce external scientific information.
 Annotation is restricted to the selected official Palestinian Grade 8 Science curriculum source used in the experiment.
 
 No external scientific knowledge is used to judge whether missing curriculum information should be assumed.
+
+The annotation evaluates retrieval of the predefined curriculum content, not general scientific correctness beyond the selected curriculum source.
 
 ---
 
@@ -159,10 +198,47 @@ Model and configuration comparison is based on the predefined retrieval-quality 
 
 ---
 
-## 12. Annotation Timing
+## 12. Annotation Workflow
 
-These rules are fixed before retrieval-quality annotation begins.
+The annotation workflow is:
 
-They must not be modified in response to observed model or configuration performance.
+1. Read the query.
+2. Read its frozen Expected Curriculum Content elements.
+3. Inspect the retrieved curriculum text.
+4. Mark each expected-content element as `Yes` or `No`.
+5. Calculate `recovered_element_count`.
+6. Derive the curriculum relevance label from the recovered-element count.
+7. Add an annotation note only where clarification is required.
 
-Any later methodological correction must be documented explicitly rather than silently changing the annotation criteria.
+The relevance label is therefore derived from expected-content recovery rather than independently assigned as a separate subjective judgment.
+
+---
+
+## 13. Annotation Timing and Methodological Correction
+
+The original annotation rules were prepared before full retrieval-quality annotation.
+
+A pilot annotation was then conducted to verify the operational application of the evaluation criteria.
+
+During this pilot-quality-control stage, an inconsistency was identified between the initial operational definition of `Partially Relevant` and the definition specified in the frozen Preliminary Retrieval Configuration Experiment Protocol.
+
+The initial annotation rule allowed a retrieved chunk to be classified as `Partially Relevant` when it provided useful contextual information without directly recovering required Expected Curriculum Content.
+
+The experimental protocol, however, defines partial relevance in terms of recovery of a required part of the Expected Curriculum Content.
+
+The annotation rule was therefore corrected before full annotation to restore consistency with the frozen experimental protocol.
+
+This correction:
+
+- was made before full retrieval-quality annotation;
+- does not modify the retrieval queries;
+- does not modify the Expected Curriculum Content;
+- does not modify the raw retrieval results;
+- does not modify the experimental configurations;
+- does not modify the retrieved rankings;
+- does not modify the predefined retrieval-quality metrics; and
+- is not based on comparative model or configuration performance.
+
+Following this correction, the annotation criteria remain fixed throughout full retrieval-quality annotation.
+
+Any subsequent methodological correction must be documented explicitly rather than silently changing the evaluation criteria.
